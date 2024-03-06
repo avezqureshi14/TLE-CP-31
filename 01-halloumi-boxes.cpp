@@ -1,7 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-
+// so if k is greater than 1 or if already sorted than our condition is passed
 bool isSorted(vector<int> arr, int n)
 {
     for (int i = 0; i < n - 1; i++)
